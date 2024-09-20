@@ -1,0 +1,31 @@
+{
+  "NetworkingStack": {
+    "ExportsOutputRefVPCB9E5F0B4BD23A326": "vpc-0040123df99fcc460",
+    "ExportsOutputRefVPCprivateSubnet2Subnet2F4D95302F819CBB": "subnet-0c3a7db326c959891",
+    "ExportsOutputRefVPCprivateSubnet1SubnetE522290D7D3DE097": "subnet-0b8e363753d2e28eb",
+    "ExportsOutputRefVPCprivateSubnet3Subnet3C29037E6831F423": "subnet-02cb92d6661ac17fc",
+    "ExportsOutputFnGetAttOpenSearchVpcEndpointId1772844F": "vpce-02bcc5df8e116f32f",
+    "ExportsOutputFnGetAttLambdaSecurityGroup0BD9FC99GroupId34A98CFB": "sg-0b1d6928d888f7d75"
+  },
+  "PersistenceStack": {
+    "ExportsOutputRefProcessedAssets6BA25F4CC97D0A05": "persistencestack-processedassets6ba25f4c-fwg13jwuqc8r",
+    "ExportsOutputRefInputAssets7D1D3F521E76E5B4": "persistencestack-inputassets7d1d3f52-fort2byibjlz",
+    "S3InputBucket": "persistencestack-inputassets7d1d3f52-fort2byibjlz",
+    "ExportsOutputFnGetAttInputAssets7D1D3F52Arn6F2D1F43": "arn:aws:s3:::persistencestack-inputassets7d1d3f52-fort2byibjlz",
+    "ExportsOutputFnGetAttCollectionCollectionEndpoint536124E1": "https://7koo7s7ig03gjuvesnxe.us-east-1.aoss.amazonaws.com",
+    "ExportsOutputFnGetAttProcessedAssets6BA25F4CArn14EF2951": "arn:aws:s3:::persistencestack-processedassets6ba25f4c-fwg13jwuqc8r",
+    "S3ProcessedBucket": "persistencestack-processedassets6ba25f4c-fwg13jwuqc8r",
+    "ExportsOutputFnGetAttCollectionId051B4CE9": "7koo7s7ig03gjuvesnxe"
+  },
+  "ApiStack": {
+    "MergedApiId": "2w5xsjzzobeohh63cfstiqmolu",
+    "AppUri": "http://localhost:8501/",
+    "UserPoolId": "us-east-1_90RLlUG2T",
+    "Region": "us-east-1",
+    "ClientId": "1d6il0cip2ols4g0cisn0rj9e6",
+    "IdentityPoolId": "us-east-1:6979f202-feee-45dd-bc3c-512672b7eeac",
+    "AuthenticatedRoleArn": "arn:aws:iam::059314543988:role/ApiStack-CognitoAuthenticatedRole5CA1BC89-mJJdzyxlimWa",
+    "GraphQLEndpoint": "https://j3tc7xl4mndnvbcryjjot7u3l4.appsync-api.us-east-1.amazonaws.com/graphql",
+    "CognitoDomain": "https://2c260970-773f-11ef-b100-120b7ff7118d.auth.us-east-1.amazoncognito.com"
+  }
+}
